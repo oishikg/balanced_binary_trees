@@ -1,8 +1,10 @@
 # Implementation of Balanced Binary Trees in C 
+
+## About
 This repository contains a C implementation of a balanced binary tree structure, and functions commonly associated with the data structure. The code contains an interactive loop that accepts user requests to define and apply the above mentioned functions to binary trees. 
 
-# Functions implemented
-The following functions related to binary trees are implemented :
+## Functions implemented
+We first define a data structure `tree`. Then we impelemment the following functions :
 - `tree * create_new_tree()`: Allocates enough space for a tree.
 - `void balance_tree(tree *t)`: Balances a binary tree.
 - `int add_node(tree * t, int val)` : Add a new node storing val to the tree. Returns 0 if
@@ -28,10 +30,13 @@ each node has a random (unique) value. The tree must be balanced.
 - `tree * generate_from_array(int *array, int size)`: Generates a balanced tree
 with size nodes. The values are stored in array.
 
-# Authors
+## Compilation and Running
+To compile this code, use `make`. The `Makefile` was configured to run on my system though, so check whether all the libraries used in the code are present on your system. To view the output, run the executable `bt`. 
+
+## Authors
 Oishik Ganguly
 
-# Acknowledgement
-This code written as part of Yale-NUS's AY2017-18 fall semester POSIX course (course code : YSC3217). The above description of the binary tree functions were written by Professor Simon Perrault, who ran the course. 
+## Acknowledgement
+This code written as part of Yale-NUS College's AY2017-18 fall semester POSIX course (course code : YSC3217). The above description of the binary tree functions were written by Professor Simon Perrault, who ran the course. 
 
 
